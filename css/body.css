@@ -1,0 +1,70 @@
+/* Paleta Frescura Minimalista:
+#F7F7F7 (Blanco nieve)
+#E3E8E5 (Menta muy claro)
+#D3E0DC (Verde agua pálido)
+#C1CDC9 (Gris azulado claro)
+#B0B8B5 (Gris pizarra suave)*/
+.cover-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#E3E8E5;   
+}
+
+.cover-left {
+    width: 30%;
+}
+
+.cover-title {
+    font-size: 24px; /* Ajusta según necesites */
+    margin-bottom: 20px;
+}
+
+.cover-paragraph {
+    margin-bottom: 20px;
+}
+
+.cover-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cover-right {
+    width: 60%;
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    position: relative; /* Necesario para posicionar las imágenes de forma absoluta */
+}
+
+.image-container {
+    position: relative;
+    height: 37rem; /* Ajusta según el tamaño deseado */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre las imágenes */
+    align-items: center;
+    overflow: hidden; /* Evita que el contenido se salga del contenedor */
+}
+
+.image-u-reverse, .image-u {
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen cubra el área designada sin perder proporciones */
+}
+
+.image-u-reverse {
+    width: 42vh;
+    left: 0;
+}
+
+.image-u {
+    width: 65vh;
+    right: 0;
+}
+
+/* Asegúrate de ajustar los estilos para que se adapten al diseño y tamaño específicos de tus imágenes */
