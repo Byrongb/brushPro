@@ -13,25 +13,31 @@
 }
 
 .cover-left {
-    width: 30%;
+    width: 35%;
 }
 
 .cover-title {
-    font-size: 24px; /* Ajusta según necesites */
-    margin-bottom: 20px;
+    font-size: 10vh; /* Ajusta según necesites */
+    margin-bottom: 0vh;
+    margin-left: 12%;
 }
 
 .cover-paragraph {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+    margin-left: 12%;
 }
 
 .cover-button {
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 13px 30px;
+    background-color: #0436B0;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 7%;
+    margin-left: 12%;
+    font-size: 2vh;
 }
 
 .cover-right {
@@ -44,7 +50,7 @@
 
 .image-container {
     position: relative;
-    height: 37rem; /* Ajusta según el tamaño deseado */
+    height: 80vh; /* Ajusta según el tamaño deseado */
     width: 100%;
     display: flex;
     justify-content: space-between; /* Distribuye el espacio entre las imágenes */
@@ -67,4 +73,247 @@
     right: 0;
 }
 
-/* Asegúrate de ajustar los estilos para que se adapten al diseño y tamaño específicos de tus imágenes */
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13vh;
+    background-color: #f4f4f4; /* Ajusta el color de fondo según tu paleta de colores */
+}
+
+.skill {
+    text-align: center;
+    width: 20%; /* Ajusta el ancho según necesites */
+}
+
+.skill img {
+    width: 100%; /* Ajusta para que la imagen ocupe todo el ancho del contenedor .skill */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.skill p {
+    font-size: 25px; /* Ajusta el tamaño de fuente según necesites */
+    color: #333; /* Ajusta el color del texto según tu paleta de colores */
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 20%;
+    height: 21.3vh;
+}
+
+.services-container{
+    background-image: url("https://juanitoelpintor.com/wp-content/uploads/2021/04/casas-modernas-interior.jpg");
+}
+
+.service-box {
+    width: 30%; /* Ajusta este valor según necesites */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9; /* O el color que prefieras */
+    border: 1px solid #ddd; /* Opcional */
+    border-radius: 5px; /* Opcional */
+}
+
+.service-box img {
+    width: 100%; /* Asegura que la imagen cubra el ancho del cuadrado */
+    height: 90%; /* Ajusta este valor para controlar la altura de la imagen dentro del cuadrado */
+    object-fit: cover; /* Para que la imagen cubra bien su espacio sin deformarse */
+    border-top-left-radius: 5px; /* Opcional, para mantener la consistencia con el border-radius del cuadrado */
+    border-top-right-radius: 5px; /* Opcional */
+}
+
+.service-box h3, .service-box p {
+    padding: 0px 0px; /* Añade un poco de espacio alrededor del texto */
+}
+
+.workflowContainer{
+    padding-top: 30vh;
+}
+
+.workflow-title h2 {
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: 13vh;
+}
+
+.workflow-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Asegura que los elementos estén en línea */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.step {
+    text-align: center;
+    width: 18%; /* Ajusta según el espacio disponible */
+}
+
+.step img {
+    width: 100%; /* Asegura que la imagen cubra el ancho del paso */
+    height: auto;
+}
+
+.arrow {
+    font-size: 24px; /* Tamaño de la flecha */
+}
+
+
+.testimonialsContainer{
+    margin-top: 15vh;
+    background-color: #E3E8E4;
+    height: 48vh;
+}
+
+.testimonials-title h2 {
+    text-align: center;
+    padding: 5vh 20px;
+    margin-bottom: 20px;
+    font-size: 5vh;
+}
+
+.testimonials-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.testimonial-box {
+    width: 60%;
+    display: flex;
+    background-color: #f9f9f9; /* O el color que prefieras */
+    padding: 20px;
+    margin-left: 3vh;
+    border-radius: 5px;
+}
+
+.testimonial-box img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px; /* Opcional */
+    margin-right: 20px;
+}
+
+.testimonial-info {
+    width: 60%;
+}
+
+.testimonial-info h3, .testimonial-info .rating, .testimonial-info p {
+    margin: 5px 0;
+}
+
+.rating {
+    font-size: 18px;
+    color: #ffc107; /* Color de las estrellas */
+}
+
+.testimonial-image {
+    width: 40%;
+    text-align: center; /* Centra la imagen adicional si es necesario */
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Opcional */
+}
+
+.galleryContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.gallery-left, .gallery-right {
+    width: 50%;
+}
+
+.view-gallery-btn {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-images img {
+    width: 48%; /* Ajusta para que ambas imágenes pequeñas quepan en la mitad del contenedor */
+    height: auto;
+}
+
+.gallery-right img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.gallery-right p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .galleryContainer {
+        flex-direction: column;
+    }
+
+    .gallery-left, .gallery-right {
+        width: 100%;
+    }
+
+    .small-images img {
+        width: 100%; /* Ajusta para dispositivos más pequeños */
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials-content {
+        flex-direction: column;
+    }
+
+    .testimonial-box, .testimonial-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .workflow-steps {
+        flex-direction: column;
+    }
+
+    .arrow {
+        display: none; /* Oculta las flechas en dispositivos pequeños */
+    }
+}
+
+
+/* Ajustes para responsividad */
+@media (max-width: 768px) {
+    .services-grid {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 80%; /* Aumenta el ancho para dispositivos más pequeños */
+        margin-bottom: 20px; /* Añade espacio entre los cuadrados cuando están apilados */
+    }
+}
+

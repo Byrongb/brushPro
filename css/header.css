@@ -46,7 +46,7 @@
 
 .nav-right button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #0436B0;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -62,10 +62,7 @@
     cursor: pointer;
 }
 
-.logo-center img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
+
 
 /* Add responsiveness */
 @media (max-width: 768px) {
