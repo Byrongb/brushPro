@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="cover-right">
                 <div class="image-container">
-                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429652912_1149465979378392_4991933585073011959_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qidI-S6YM2QAX8mxH74&_nc_ht=scontent-sea1-1.xx&oh=00_AfCJlzzVgyVvTjK3MBZsvqXesKjfOm9PtodR30iK6iwvHg&oe=65E610A5" alt="Imagen 1" class="image-u-reverse">
-                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429658015_1149465999378390_6518425892919222942_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=xq8hULdtfOwAX_dBrgA&_nc_ht=scontent-sea1-1.xx&oh=00_AfCbwVfFlLlPWc8ZjpqS42o2xXoRTmdJEa3Ewd3oM-FwSg&oe=65E6C024" alt="Imagen 2" class="image-u">
+                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429652912_1149465979378392_4991933585073011959_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Z8lSjxAdE9AAX8V6T5K&_nc_ht=scontent-sea1-1.xx&oh=00_AfD2adqyggIlkH9B5_wVwHuugu-TG3iqH9nVEF04ItAmEQ&oe=65F3E865" alt="Imagen 1" class="image-u-reverse">
+                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429658015_1149465999378390_6518425892919222942_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Nr6sboXowAQAX8Ts1wB&_nc_ht=scontent-sea1-1.xx&oh=00_AfCZZrxZU21Hv8DnNiV96chnU6UY0H2Q3UF6W0T4P_ylUQ&oe=65F29DA4" alt="Imagen 2" class="image-u">
                 </div>
             </div>
         </div>
@@ -24,19 +24,19 @@ document.addEventListener('DOMContentLoaded', function() {
     skillsContainer.className = 'skills-container';
     skillsContainer.innerHTML = `
         <div class="skill">
-            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429639503_1150597165931940_3609805543538488287_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=3iLlk58PbOcAX-QcBkI&_nc_ht=scontent-sea1-1.xx&oh=00_AfCkz2VTwZOenYV1rE2rmuKBT6rRwMAw71IfdkzZAGT1uA&oe=65E9E92E" alt="Skill 1">
+            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429639503_1150597165931940_3609805543538488287_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=55HK8gzoALAAX_c1hBy&_nc_ht=scontent-sea1-1.xx&oh=00_AfDBGalj6o8mqINvhrQCu_G2ndAVi7QkiOSO7ccNT3sgWA&oe=65F3CC6E" alt="Skill 1">
             <p>PRECISION IN EVERY BRUSH STROKE</p>
         </div>
         <div class="skill">
-            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430074202_1150597545931902_392644784083930647_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=vOsSLx5q1psAX_D3VIi&_nc_ht=scontent-sea1-1.xx&oh=00_AfA32fBBoyWqruKh2Nkav3dISgANgYHBnCl_sbO_AcvAjQ&oe=65E96266" alt="Skill 2">
+            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430074202_1150597545931902_392644784083930647_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OiSM7wgR_pYAX8BLgqH&_nc_ht=scontent-sea1-1.xx&oh=00_AfDXyrYKWp0wFKnStIi4Zx7WpJLVPeW1unb6VQISRP7AfA&oe=65F345A6" alt="Skill 2">
             <p>WORK ON TIME</p>
         </div>
         <div class="skill">
-            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429924731_1150598719265118_6350956577379565530_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=QIMabesfq2gAX8r0Lo_&_nc_ht=scontent-sea1-1.xx&oh=00_AfDNCHw7ho92E5B3YNkuQae8XU98msmF9uGVpPD75xwahA&oe=65E9E881" alt="Skill 3">
+            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429924731_1150598719265118_6350956577379565530_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Zfs1YDIDkQIAX_U6ugq&_nc_ht=scontent-sea1-1.xx&oh=00_AfDdlVJOyMUdrBwV4KgglcdaHuavXmdnfgX_1-1M3va0-Q&oe=65F3CBC1" alt="Skill 3">
             <p>DURABLE FINISHES</p>
         </div>
         <div class="skill">
-            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429801385_1150597175931939_7300898890477336487_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=v3OivzZPJEkAX8cBtAy&_nc_ht=scontent-sea1-1.xx&oh=00_AfDseTGIonJUbkZiDatFKE8zTgPrwGSHNkT70wnJ9bYn-Q&oe=65E8154D" alt="Skill 4">
+            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429801385_1150597175931939_7300898890477336487_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kSFO7M3zyxgAX8MVt9x&_nc_ht=scontent-sea1-1.xx&oh=00_AfBTf8hb-BcNjBsU0GUENYhPzrZ9wLWd7YCSX24qnL0fbg&oe=65F3F2CD" alt="Skill 4">
             <p>CUSTOMER SATISFACTION</p>
         </div>
     `;
@@ -53,17 +53,17 @@ document.addEventListener('DOMContentLoaded', function() {
     servicesContainer.innerHTML = `
         <div class="services-grid">
             <div class="service-box">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429671613_1150626099262380_6427868742397061230_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=WgAFCAXukWYAX9zYCkR&_nc_ht=scontent-sea1-1.xx&oh=00_AfA1L6-x3GV7NWwGABaOi6C6P52R1mDsAp1crAnnbJnEAQ&oe=65E8A601" alt="">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429671613_1150626099262380_6427868742397061230_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jqckiE2HercAX9CO7d2&_nc_ht=scontent-sea1-1.xx&oh=00_AfCgQ3utKVK4NoStDZ9wJMzIfpZ--0RZTfJha9xT0TYHsw&oe=65F28941" alt="">
                 <h3>Interior Painting</h3>
                 <p>Transform your interior space with our professional painting service. Our expert team works meticulously to refresh your home with vibrant colors and impeccable finishes. We use high quality paints, ensuring a long-lasting result and a healthy environment for your family.</p>
             </div>
             <div class="service-box">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430034976_1150632405928416_3501796603874884621_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Maz8yA6RVdYAX_6JuRi&_nc_ht=scontent-sea1-1.xx&oh=00_AfCqHGknAHl79Q0We5PFpnfwLnVf1alPuw0DYZ81jMH4lQ&oe=65E9A559" alt="">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430034976_1150632405928416_3501796603874884621_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fmpnRxEwz6wAX-UBPQ5&_nc_ht=scontent-sea1-1.xx&oh=00_AfAllNftX0BX-2d96RCZuvTI5wsPFZjbg3UhS2XTWrEMKQ&oe=65F38899" alt="">
                 <h3>Exterior Painting</h3>
                 <p>Improve the appearance and increase the value of your property with our exterior painting service. Applying advanced techniques to deal with weather and wear. Our commitment is to provide an aesthetic and protective finish that highlights the beauty of your home.</p>
             </div>
             <div class="service-box">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429591723_1150635165928140_8811971451326467773_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KkzoOqHnN-EAX-oCONb&_nc_ht=scontent-sea1-1.xx&oh=00_AfDygHkdhRlXlM979pqHENkNcmD-MfmYq1_JIeSqc22-kw&oe=65E9DF9E" alt="">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429591723_1150635165928140_8811971451326467773_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Wnxx81wXWAsAX9rMnR-&_nc_ht=scontent-sea1-1.xx&oh=00_AfC8PGs3Ktw38xTXE6qNsDMijvL9giVi1tlRmQxFQ1SCOw&oe=65F3C2DE" alt="">
                 <h3>Custom Painting</h3>
                 <p>Every project is unique, which is why we offer custom painting solutions to meet your specific needs. Whether you're looking for decorative effects, specialty finishes, or custom colors, our team is ready to provide expert advice and execute your vision to perfection.</p>
             </div>
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     <div class="containerCarousel">
         <div class="slide">
-            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=6xAaE180z94AX9_46nF&_nc_ht=scontent-sea1-1.xx&oh=00_AfAKXOoAZP6M5qI4Ut2bP9aOQjLGseM_TqAg0SXnrQuoqw&oe=65EACEC1);">
+            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
                 <div class="contentCarousel">
                     <div class="name">John <br> Morgan</div>
                     <div class="rating">★★★★★</div>
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button>GET ESTIMATE</button>
                 </div>
             </div>
-            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=6xAaE180z94AX9_46nF&_nc_ht=scontent-sea1-1.xx&oh=00_AfAKXOoAZP6M5qI4Ut2bP9aOQjLGseM_TqAg0SXnrQuoqw&oe=65EACEC1);">
+            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
                 <div class="contentCarousel">
                     <div class="name">Carlos Jiménez</div>
                     <div class="rating">★★★★★</div>
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button>GET ESTIMATE</button>
                 </div>
             </div>
-            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=6xAaE180z94AX9_46nF&_nc_ht=scontent-sea1-1.xx&oh=00_AfAKXOoAZP6M5qI4Ut2bP9aOQjLGseM_TqAg0SXnrQuoqw&oe=65EACEC1);">
+            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
                 <div class="contentCarousel">
                     <div class="name">Mariana Rodríguez</div>
                     <div class="rating">★★★★★</div>
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button>GET ESTIMATE</button>
                 </div>
             </div>
-            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=6xAaE180z94AX9_46nF&_nc_ht=scontent-sea1-1.xx&oh=00_AfAKXOoAZP6M5qI4Ut2bP9aOQjLGseM_TqAg0SXnrQuoqw&oe=65EACEC1);">
+            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
                 <div class="contentCarousel">
                     <div class="name">Sofía Hernández</div>
                     <div class="rating">★★★★★</div>
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button>GET ESTIMATE</button>
                 </div>
             </div>
-            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=6xAaE180z94AX9_46nF&_nc_ht=scontent-sea1-1.xx&oh=00_AfAKXOoAZP6M5qI4Ut2bP9aOQjLGseM_TqAg0SXnrQuoqw&oe=65EACEC1);">
+            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
                 <div class="contentCarousel">
                     <div class="name">Eduardo López</div>
                     <div class="rating">★★★★★</div>
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button>GET ESTIMATE</button>
                 </div>
             </div>
-            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=6xAaE180z94AX9_46nF&_nc_ht=scontent-sea1-1.xx&oh=00_AfAKXOoAZP6M5qI4Ut2bP9aOQjLGseM_TqAg0SXnrQuoqw&oe=65EACEC1);">
+            <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
                 <div class="contentCarousel">
                     <div class="name">Ana Torres</div>
                     <div class="rating">★★★★★</div>
@@ -206,12 +206,12 @@ document.addEventListener('DOMContentLoaded', function() {
             <h2 class="titleGale">Get inspired <br> by our <br> achievements</h2>
             <button class="view-gallery-btn">SEE FULL GALLERY</button>
             <div class="small-images">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431270934_1152761855715471_9080144677491339795_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Zb8nZZr6ssgAX-Uubq0&_nc_ht=scontent-sea1-1.xx&oh=00_AfBihCzOf86vVA7T-et_JEnXvngKTM4qzQu1bvw5gX7UbA&oe=65ED996C" alt="Imagen Pequeña 1">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431367979_1152761629048827_2225055565111845027_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QApy9A9RH-QAX8PXnnk&_nc_ht=scontent-sea1-1.xx&oh=00_AfDGdXkEOigctus-zIdAeDDhbS8pdiVwPayfRSSd8IbqBQ&oe=65EDBCAE" alt="Imagen Pequeña 2">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431270934_1152761855715471_9080144677491339795_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cGt_SAfu6n4AX9f60gI&_nc_ht=scontent-sea1-1.xx&oh=00_AfCyMdMzhA3ixVrH9E_gSF3mHN7EXc6baNEvwIA28HoEGA&oe=65F3882C" alt="Imagen Pequeña 1">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431367979_1152761629048827_2225055565111845027_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gq786rJ1AH8AX_Rogox&_nc_ht=scontent-sea1-1.xx&oh=00_AfBXi2sDnVrrXxEzFH2MU7QVHFjkX0JMYNnj7atrqrID6Q&oe=65F3AB6E" alt="Imagen Pequeña 2">
             </div>
         </div>
         <div class="gallery-right">
-            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431319664_1152760379048952_4935509954112375173_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UbWjk0WcPNEAX_fqf32&_nc_ht=scontent-sea1-1.xx&oh=00_AfAX_drdYa2JXcZnn81xJz32DmebkXMxvI8QhxRuUqhJbA&oe=65ED3729" alt="Imagen Grande">
+            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431319664_1152760379048952_4935509954112375173_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Oe7M_4gPW04AX-t2CEx&_nc_ht=scontent-sea1-1.xx&oh=00_AfBiJ261Yv-O40ax4McjN0IvJO7Uvllnvfv5e2R5NasD8g&oe=65F325E9" alt="Imagen Grande">
             <p>Discover the quality and detail in each project we carry out. Our gallery shows the passion and commitment we put into each job.</p>
         </div>
     `;

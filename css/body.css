@@ -118,7 +118,7 @@ body{
 }
 
 .services-container{
-    background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429765206_1150615399263450_5439588863206474613_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=4dboMZLDD2EAX-Q3Vt1&_nc_ht=scontent-sea1-1.xx&oh=00_AfDmyKl0zKbONy-pdCCYQD5ez-MvJ7Khb3h4Y8JkskqpWw&oe=65E87B76");
+    background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429765206_1150615399263450_5439588863206474613_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CPJ2ScbClXUAX9ENBMh&_nc_ht=scontent-sea1-1.xx&oh=00_AfCEDT1WEk2qJVedA8LcFRVrwdK8fBSSk5At7PbmfDQ0Zg&oe=65F25EB6");
     background-size: 100% auto; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en el contenedor */
