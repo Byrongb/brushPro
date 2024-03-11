@@ -21,11 +21,37 @@
     align-items: center;
 }
 
-.btn-contact{
-    margin-right: 0;
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* O el color de fondo de tu barra de menú */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Opcional: añade una sombra para resaltar */
+    z-index: 1000; /* Asegúrate de que se muestre por encima de otros elementos */
 }
 
+.fixed-header .nav-left a{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.fixed-header .nav-right button {
+    margin: 0 45px;
+}
+
+
 .nav-left a, .nav-right button {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-right button {
     text-decoration: none;
     color: #333;
     margin: 0 15px;
@@ -46,15 +72,15 @@
 
 .nav-right button {
     padding: 10px 20px;
-    background-color: #0436B0;
-    color: #fff;
+    background-color: #ed8b01;
+    color: #ffffff;
     border-radius: 5px;
     border: none;
     transition: background-color 0.3s ease;
 }
 
 .nav-right button:hover {
-    background-color: #0056b3;
+    background-color: #ca7b0d;
 }
 
 .logo-center img {

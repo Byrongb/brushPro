@@ -1,0 +1,192 @@
+.footer-background {
+    background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430073761_1152779209047069_5597022278444631415_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=d3qQt1Ctvh4AX_R70tn&_nc_ht=scontent-sea1-1.xx&oh=00_AfCS8V9LLZBE7yTfcE5gCB-9zAN2nozJFe11QxhABC8_SQ&oe=65EE0CE7');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.footer-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Filtro oscuro */
+    z-index: 1;
+}
+
+.footer-content, .social-icons {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-left, .footer-middle, .footer-right {
+    width: 30%;
+    font-size: 1.3rem;
+
+}
+
+.footer-logo {
+    width: 15rem;    
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer-intro {
+    text-align: left;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 2;
+    font-size: 1.3rem;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Asegura que los elementos estén alineados en la parte superior */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas más pequeñas */
+    padding: 20px;
+    font-size: 1.3rem;
+
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.contact-info, .useful-links, .footer-right {
+    flex: 1;
+    margin: 2% 2%; /* Añade un poco de espacio entre las columnas */
+    min-width: 200px; /* Establece un ancho mínimo para cada columna */
+}
+
+.contact-info h3, .useful-links h3, .footer-right h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.useful-links .links-columns {
+    display: flex;
+    justify-content: space-between;
+    white-space: pre-line;
+    margin-top: -5%;
+}
+
+.useful-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Asegura que no haya margen extra */
+    font-size: 1.5rem;
+    margin-right: 25%;
+
+}
+
+.useful-links ul:last-child {
+    margin-left: -20%; /* Ajusta este valor según necesites */
+}
+
+
+
+.useful-links a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: inherit; /* Opcional: hace que los enlaces usen el color de texto heredado */
+}
+
+.links-center {
+    text-align: center;
+    padding-top: -2px; /* Añade espacio arriba del enlace centrado */
+    font-size: 1.5rem;
+    margin-right: 20%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre los campos del formulario */
+}
+
+#review-form input, #review-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente accesible */
+}
+
+#review-form textarea {
+    resize: vertical; /* Permite al usuario ajustar la altura del textarea */
+    height: 100px; /* Altura inicial */
+}
+
+#review-form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    font-size: 16px;
+}
+
+#review-form button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+
+.ratingF {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratingF input {
+    display: none; /* Oculta los inputs de radio */
+}
+
+.ratingF label {
+    cursor: pointer;
+    font-size: 25px; /* Tamaño de las estrellas */
+    color: #ccc; /* Color inicial de las estrellas */
+}
+
+.ratingF label:hover,
+.ratingF label:hover ~ label,
+.ratingF input:checked ~ label {
+    color: #ffcc00; /* Color de las estrellas al pasar el mouse y después de seleccionar */
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-middle, .footer-right, .social-icons {
+        width: 100%;
+        text-align: center;
+    }
+
+    .useful-links .links-columns {
+        flex-direction: column;
+    }
+}

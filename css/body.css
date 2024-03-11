@@ -4,6 +4,11 @@
 #D3E0DC (Verde agua pálido)
 #C1CDC9 (Gris azulado claro)
 #B0B8B5 (Gris pizarra suave)*/
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
 .cover-container {
     display: flex;
     justify-content: space-between;
@@ -30,7 +35,7 @@
 
 .cover-button {
     padding: 13px 30px;
-    background-color: #0436B0;
+    background-color: #F57F25;
     color: white;
     border: none;
     border-radius: 5px;
@@ -38,6 +43,12 @@
     margin-top: 7%;
     margin-left: 12%;
     font-size: 2vh;
+    border-radius: 25px;
+
+}
+
+.cover-button:hover {
+    background-color: #ca7b0d;
 }
 
 .cover-right {
@@ -79,7 +90,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 13vh;
-    background-color: #f4f4f4; /* Ajusta el color de fondo según tu paleta de colores */
+    background-color: white; /* Ajusta el color de fondo según tu paleta de colores */
 }
 
 .skill {
@@ -103,16 +114,21 @@
     justify-content: space-around;
     padding: 20px;
     padding-top: 20%;
-    height: 21.3vh;
+    height: 22vh;
 }
 
 .services-container{
-    background-image: url("https://juanitoelpintor.com/wp-content/uploads/2021/04/casas-modernas-interior.jpg");
+    background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429765206_1150615399263450_5439588863206474613_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=4dboMZLDD2EAX-Q3Vt1&_nc_ht=scontent-sea1-1.xx&oh=00_AfDmyKl0zKbONy-pdCCYQD5ez-MvJ7Khb3h4Y8JkskqpWw&oe=65E87B76");
+    background-size: 100% auto; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el contenedor */
+    position: relative; /* Establece una posición relativa para el contenedor */
+    padding-top: 50px;
 }
 
 .service-box {
     width: 30%; /* Ajusta este valor según necesites */
-    height: 40vh;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,24 +140,33 @@
 
 .service-box img {
     width: 100%; /* Asegura que la imagen cubra el ancho del cuadrado */
-    height: 90%; /* Ajusta este valor para controlar la altura de la imagen dentro del cuadrado */
+    height: 60%; /* Ajusta este valor para controlar la altura de la imagen dentro del cuadrado */
     object-fit: cover; /* Para que la imagen cubra bien su espacio sin deformarse */
     border-top-left-radius: 5px; /* Opcional, para mantener la consistencia con el border-radius del cuadrado */
     border-top-right-radius: 5px; /* Opcional */
 }
 
-.service-box h3, .service-box p {
-    padding: 0px 0px; /* Añade un poco de espacio alrededor del texto */
+.service-box h3{
+    font-size: 1.5rem;
 }
 
+.service-box p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+
 .workflowContainer{
-    padding-top: 30vh;
+    padding-top: 25rem;
 }
 
 .workflow-title h2 {
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
     margin-bottom: 13vh;
+    color: #262362;
 }
 
 .workflow-steps {
@@ -150,6 +175,7 @@
     align-items: center;
     flex-wrap: nowrap; /* Asegura que los elementos estén en línea */
     gap: 10px; /* Espacio entre los elementos */
+    font-size: 1.5rem;
 }
 
 .step {
@@ -158,79 +184,187 @@
 }
 
 .step img {
-    width: 100%; /* Asegura que la imagen cubra el ancho del paso */
+    width: 70%; /* Asegura que la imagen cubra el ancho del paso */
     height: auto;
 }
 
 .arrow {
-    font-size: 24px; /* Tamaño de la flecha */
+    font-size: 4.5rem; /* Tamaño de la flecha */
 }
 
 
 .testimonialsContainer{
     margin-top: 15vh;
-    background-color: #E3E8E4;
-    height: 48vh;
+    height: 80vh;
+    overflow: hidden;
+    color: #F57F25;
 }
 
-.testimonials-title h2 {
-    text-align: center;
-    padding: 5vh 20px;
+
+
+.containerCarousel{
+    position: absolute;
+    max-width: 1000px; /* Máximo ancho del carrusel */
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    height: 75vh; /* Altura basada en el alto de la ventana */
+    background: #f5f5f5;
+    box-shadow: 0 30px 50px #dbdbdb;
+    margin-top: 2%;
+  }
+  
+  .containerCarousel .slide .itemCarousel{
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #505050;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .slide .itemCarousel:nth-child(1),
+  .slide .itemCarousel:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .slide .itemCarousel:nth-child(3){
+    left: 50%;
+  }
+  .slide .itemCarousel:nth-child(4){
+    left: calc(50% + 220px);
+  }
+  .slide .itemCarousel:nth-child(5){
+    left: calc(50% + 440px);
+  }
+  
+  /* here n = 0, 1, 2, 3,... */
+  .slide .itemCarousel:nth-child(n + 6){
+    left: calc(50% + 660px);
+    opacity: 0;
+  }
+  
+  
+  
+  .itemCarousel .contentCarousel{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    width: 300px;
+    text-align: left;
+    color: #060000;
+    transform: translate(0, -50%);
+    font-family: system-ui;
+    display: none;
+  }
+  
+  
+  .slide .itemCarousel:nth-child(2) .contentCarousel{
+    display: block;
+  }
+  
+  
+  .contentCarousel .name{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+    animation: animate 1s ease-in-out 1 forwards;
+  }
+  
+  .contentCarousel .des{
+    margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 5vh;
-}
-
-.testimonials-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.testimonial-box {
-    width: 60%;
-    display: flex;
-    background-color: #f9f9f9; /* O el color que prefieras */
-    padding: 20px;
-    margin-left: 3vh;
-    border-radius: 5px;
-}
-
-.testimonial-box img {
-    width: 40%;
-    height: auto;
-    border-radius: 5px; /* Opcional */
-    margin-right: 20px;
-}
-
-.testimonial-info {
-    width: 60%;
-}
-
-.testimonial-info h3, .testimonial-info .rating, .testimonial-info p {
-    margin: 5px 0;
-}
-
-.rating {
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+  }
+  
+  .contentCarousel button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+    background: black;
+    color: #ffffff;
+  }
+  
+  .rating {
     font-size: 18px;
     color: #ffc107; /* Color de las estrellas */
 }
-
-.testimonial-image {
-    width: 40%;
-    text-align: center; /* Centra la imagen adicional si es necesario */
-}
-
-.testimonial-image img {
+  
+  @keyframes animate {
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+  
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+  }
+  
+  
+  
+  .button{
     width: 100%;
-    height: auto;
-    border-radius: 5px; /* Opcional */
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+   
+  }
+  
+  .button button{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+  
+  }
+  
+  .button button:hover{
+    background: #ababab;
+    color: #fff;
+  }
+
+  .testimonials-title h2 {
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 3rem;
 }
 
 .galleryContainer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
+    padding-top: 15rem;
+    padding-left: 20px;
+}
+
+.titleGale{
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 30px;
+
 }
 
 .gallery-left, .gallery-right {
@@ -240,21 +374,27 @@
 .view-gallery-btn {
     display: block;
     margin: 20px 0;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 20px 30px;
+    background-color: #5271FF;
+    border-radius: 10px;
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 .small-images {
     display: flex;
     justify-content: space-between;
+    padding-right: 20px;
+    margin-bottom: 2rem;   
 }
 
 .small-images img {
     width: 48%; /* Ajusta para que ambas imágenes pequeñas quepan en la mitad del contenedor */
     height: auto;
+    margin-bottom: 2rem;   
+
 }
 
 .gallery-right img {
@@ -264,7 +404,11 @@
 }
 
 .gallery-right p {
-    text-align: justify;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+
 }
 
 @media (max-width: 768px) {
