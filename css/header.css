@@ -86,6 +86,7 @@
 .logo-center img {
     height: 80px; /* Adjust based on your logo's size */
     cursor: pointer;
+    margin-right: 3.5rem;
 }
 
 

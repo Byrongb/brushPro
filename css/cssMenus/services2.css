@@ -1,0 +1,140 @@
+.service-detail-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 2% 2% 0% 2%
+}
+
+.service-detail-info {
+    flex: 1;
+    padding-left: 2%; /* Ajusta este valor según necesites */
+}
+
+.service-checks {
+    list-style: none;
+    padding: 0;
+}
+
+.service-checks li {
+    margin-bottom: 10px;
+}
+
+.service-checks li i {
+    color: green;
+    margin-right: 5px;
+}
+
+.title-other{
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 2% 8% 8% 8%;
+}
+
+/* Resto de tus estilos para .service-item y .more-info-btn */
+
+.service-detail-image img {
+    width: 100%;
+    max-width: 750px; /* Ajusta según tus necesidades */
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.service-title{
+    font-size: 1.5em;
+}
+
+.descripcion-ItemP{
+    font-size: 1.2rem;
+}
+
+.titulo-ItemP{
+    font-size: 2rem;
+}
+
+.service-detail-info {
+    flex: 1;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+
+}
+
+.titleOther{
+    font-size: 4rem;
+    padding: 0px 25px 0px;
+}
+
+.service-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-btn {
+    background-color: #F57F25; /* Or any color that fits your design */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.quote-btn:hover {
+    background-color: #ca7b0d; /* Darker shade for hover effect */
+}
+
+
+.service-features li i {
+    color: green; /* Ajusta el color según tu diseño */
+    margin-right: 10px;
+}
+
+.other-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0% 10% 5% 10%;
+}
+
+.other-service-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.other-service-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.other-service-item h4 {
+    margin: 10px 0;
+}
+
+.other-service-item p {
+    padding: 0 10px;
+}
+
+.more-info-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

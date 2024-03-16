@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     footerContainer.innerHTML = `
     <div class="footer-background">
         <div class="footer-intro">
-            <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430044994_1152783739046616_5867596447605418755_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QZA0q7O_h60AX8cK4zj&_nc_ht=scontent-sea1-1.xx&oh=00_AfBgAxJG_E-hvy_kVyivxT0vbSnUueOmMVQn7kUr8wIbVQ&oe=65EF1B17" alt="Logo de BrushPro" class="footer-logo">
+            <img onclick="window.location.href='index.html'" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/430044994_1152783739046616_5867596447605418755_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QZA0q7O_h60AX8cK4zj&_nc_ht=scontent-sea1-1.xx&oh=00_AfBgAxJG_E-hvy_kVyivxT0vbSnUueOmMVQn7kUr8wIbVQ&oe=65EF1B17" alt="Logo de BrushPro" class="footer-logo">
             <p>At BrushPro, we transform your space with vibrant colors and flawless finishes. Our commitment to quality and customer satisfaction makes us your best choice for painting projects. Let our team of experts make your home's vision a reality.</p>
         </div>
         <div class="footer-content">
@@ -19,16 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
             <h3>Useful Links</h3>
             <div class="links-columns">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
                 </ul>
                 <ul class="columnRight">
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                 </ul>
                 </div>
                 <div class="links-center">
-                    <a href="#">Get Estimate</a>
+                    <a href="estimate.html">Get Estimate</a>
                 </div>
             </div>
 

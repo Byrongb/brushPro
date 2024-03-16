@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="cover-left">
                 <h1 class="cover-title">Give Life<br>To Your<br>Home</h1>
                 <p class="cover-paragraph">"At BrushPro, we transform spaces with precision and passion. Our focus on quality and detail guarantees perfect finishes on every project, from homes to buildings. Contact us and discover the power of exceptional paint."</p>
-                <button href="./index.html" class="cover-button">FREE ESTIMATE</button>
+                <button onclick="window.location.href='estimate.html'" class="cover-button">FREE ESTIMATE</button>
             </div>
             <div class="cover-right">
                 <div class="image-container">
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="name">John <br> Morgan</div>
                     <div class="rating">★★★★★</div>
                     <div class="des">"This is an incredible testimony that speaks about the quality and professionalism of the service received. The attention to detail and efficiency of the team was exceptional."</div>
-                    <button>GET ESTIMATE</button>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </div>
             <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="name">Carlos Jiménez</div>
                     <div class="rating">★★★★★</div>
                     <div class="des">"The attention to detail from this company is simply outstanding. They completely transformed the look of my house with their work. I'm more than satisfied!""</div>
-                    <button>GET ESTIMATE</button>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </div>
             <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="name">Mariana Rodríguez</div>
                     <div class="rating">★★★★★</div>
                     <div class="des">"Incredible professionalism and quality of service. The company met the agreed deadlines, and the result exceeded my expectations. I highly recommend their services."</div>
-                    <button>GET ESTIMATE</button>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </div>
             <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="name">Sofía Hernández</div>
                     <div class="rating">★★★★★</div>
                     <div class="des">"I'm really impressed with the dedication and effort they put into every detail. My house looks like new thanks to their high-quality painting work." </div>
-                    <button>GET ESTIMATE</button>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </div>
             <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="name">Eduardo López</div>
                     <div class="rating">★★★★★</div>
                     <div class="des">"The team was very kind and respectful. They answered all my questions and helped me choose the perfect color for my house. The final result is beautiful. Exceptional service!" </div>
-                    <button>GET ESTIMATE</button>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </div>
             <div class="itemCarousel" style="background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429946319_1151715542486769_9129708214941704805_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iJ3lxSsP6AgAX_K9HIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfCXZ3sCDNyK91BL1OW-KGG8j7MaFV8do2pSqW01dUTYuA&oe=65F2B7C1);">
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="name">Ana Torres</div>
                     <div class="rating">★★★★★</div>
                     <div class="des">"This company did a fantastic job painting the exterior of my house. They were efficient, clean, and very professional. I will definitely hire them again in the future." </div>
-                    <button>GET ESTIMATE</button>
+                    <button onclick="window.location.href='estimate.html'">GET ESTIMATE</button>
                 </div>
             </div>
 
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
     galleryContainer.innerHTML = `
         <div class="gallery-left">
             <h2 class="titleGale">Get inspired <br> by our <br> achievements</h2>
-            <button class="view-gallery-btn">SEE FULL GALLERY</button>
+            <button onclick="window.location.href='gallery.html'" class="view-gallery-btn">SEE FULL GALLERY</button>
             <div class="small-images">
                 <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431270934_1152761855715471_9080144677491339795_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cGt_SAfu6n4AX9f60gI&_nc_ht=scontent-sea1-1.xx&oh=00_AfCyMdMzhA3ixVrH9E_gSF3mHN7EXc6baNEvwIA28HoEGA&oe=65F3882C" alt="Imagen Pequeña 1">
                 <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/431367979_1152761629048827_2225055565111845027_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gq786rJ1AH8AX_Rogox&_nc_ht=scontent-sea1-1.xx&oh=00_AfBXi2sDnVrrXxEzFH2MU7QVHFjkX0JMYNnj7atrqrID6Q&oe=65F3AB6E" alt="Imagen Pequeña 2">
