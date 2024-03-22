@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         ],
         exterior: [
-            "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/433738618_1161197074871949_5917562324411285464_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=o_4JN3k5eVAAX8SraCP&_nc_ht=scontent-sea1-1.xx&oh=00_AfB1WWd3ySN5f3EN9EUCTdRUUZ-hBwYedGkAn7xTxXkm4w&oe=6602B6C0",
             "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/434235752_1161197088205281_6743104305804641626_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4ZlXY4SODD4AX9C3on8&_nc_ht=scontent-sea1-1.xx&oh=00_AfA1nJPrbLnrTvhZThz5NR_zNrSajDNUAHqvpfro1lQfJg&oe=66038D77",
+            "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/434249123_1161290328195957_9111513049550117661_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=u_pm8UmI078AX9m09Kh&_nc_ht=scontent-sea1-1.xx&oh=00_AfDJdpqmg4dPRtqgTaSnFvLGJ58OzCEF1zCK8mSAtKOXPA&oe=66025545",
             "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/434063232_1161197078205282_2804766646165582975_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8nFkn4QPXH4AX-8-XBV&_nc_ht=scontent-sea1-1.xx&oh=00_AfAWdWETOLtRaybdCqvVg80tQiNRmvcAcFs8av3L2TzdqQ&oe=6602FB80",
             "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/433842742_1161197168205273_4544659020109623045_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BUphacr-o0sAX9mRu0l&_nc_ht=scontent-sea1-1.xx&oh=00_AfC3FES7G-sQBtnWDJZLYOVCKDYX3JEonOUcR-K8bHcxZA&oe=660364EB",
             "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/434284875_1161197198205270_3554018196136259425_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JgpusyZYv2gAX8JVHtS&_nc_ht=scontent-sea1-1.xx&oh=00_AfBmI5t9ORhfVKuZYOVCz9uyI5FHxe2y3rBKVmuga7GIvA&oe=66035516",
@@ -76,10 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/434228613_1161290294862627_674053022070193078_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XRZaPLw-H64AX96LbBU&_nc_ht=scontent-sea1-1.xx&oh=00_AfAkZdMeUnRXr_B6B3WojLOL9xX_PET7NX8Gdsi563M5Gw&oe=66025DBF",
             "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/434249123_1161290328195957_9111513049550117661_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=u_pm8UmI078AX9m09Kh&_nc_ht=scontent-sea1-1.xx&oh=00_AfDJdpqmg4dPRtqgTaSnFvLGJ58OzCEF1zCK8mSAtKOXPA&oe=66025545",
         ],
-        all: [
-            "https://example.com/path/to/designs/image1.jpg",
-            "https://example.com/path/to/designs/image2.jpg",
-        ]
+       
     };
 
     // Función para mezclar y seleccionar imágenes
